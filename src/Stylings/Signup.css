@@ -1,0 +1,70 @@
+.signup-container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh;
+  background-color: #c8caf0;
+  padding-top: 20px;
+  }
+  .signup-header{
+    font-size: 2rem;
+    color: rgb(56, 24, 201);
+    font-weight: bold;
+  }
+  
+  
+  .signup-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-form .form-label {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .signup-form .form-control {
+    border-radius: 4px;
+    border: 2px solid #ced4da;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
+  
+  .signup-form .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3em;
+    border-radius: 4px;
+  }
+  
+  .signup-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .signup-form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  /* CSS for Signup and Login Links */
+form p {
+  font-size: 1.3em; /* Adjust font size */
+  color: #6c757d; /* Medium gray text color */
+  margin-top: 10px; /* Top margin */
+}
+
+form p a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+form p a:hover {
+  color: #0056b3; /* Darker color on hover */
+}

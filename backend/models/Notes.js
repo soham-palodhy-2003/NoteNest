@@ -1,7 +1,12 @@
 const mongoose = require('mongoose');
+const {Schema} = mongoose
 
 // eslint-disable-next-line no-undef
 const NotesSchema = new Schema({
+    user:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'user',
+    },
     title:{
         type: 'string',
         required: true,

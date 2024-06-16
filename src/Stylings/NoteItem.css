@@ -1,0 +1,53 @@
+/* Updated CSS for NoteItem */
+.note-item-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: flex-start; /* Align items to the start of the container (left-aligned) */
+  gap: 20px; /* Adjust the space between items */
+}
+
+.note-item-card {
+  flex: 1 1 calc(50% - 20px); /* Adjust width to take up half of the container width minus spacing */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.note-item-card:hover {
+  transform: scale(1.05);
+}
+
+.note-item-card .card-body {
+  padding: 20px;
+}
+
+.note-item-card .card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.note-item-card .card-text {
+  font-size: 1em;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.note-item-card .fa-trash-can {
+  color: #ff6b6b;
+  cursor: pointer;
+}
+
+.note-item-card .fa-trash-can:hover {
+  color: #ff4c4c;
+}
+
+.note-item-card .fa-pen-to-square {
+  color: #3498db;
+  cursor: pointer;
+}
+
+.note-item-card .fa-pen-to-square:hover {
+  color: #2980b9;
+}

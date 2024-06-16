@@ -1,0 +1,63 @@
+/* Navbar Container */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+  }
+  
+  /* Brand link */
+  .navbar-brand {
+    font-size: 1.5em; /* Larger font size */
+    color: #ffffff; /* White text color */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  .navbar-brand:hover {
+    color: #b3b3b3; /* Lighter color on hover */
+  }
+  
+  /* Navbar links */
+  .navbar-nav .nav-link {
+    font-size: 1.1em; /* Medium font size */
+    color: #ffffff; /* White text color */
+    transition: color 0.3s ease-in-out; /* Smooth color transition */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #007bff; /* Active link color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #b3b3b3; /* Lighter color on hover */
+  }
+  
+  /* Buttons */
+  .navbar .btn {
+    font-size: 1em; /* Medium font size */
+    background-color: #007bff; /* Primary button color */
+    border: none; /* No border */
+    transition: background-color 0.3s ease-in-out; /* Smooth background color transition */
+  }
+  
+  .navbar .btn:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  /* Additional styling for primary buttons */
+  .navbar .btn-primary {
+    margin-left: 10px; /* Space between buttons */
+  }
+  
+  .navbar .btn-primary:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  /* Flex container for alignment */
+  .d-flex {
+    display: flex; /* Flex display */
+  }
+  
+  /* Margin for spacing between buttons */
+  .mx-2 {
+    margin-left: 0.5rem; /* Left margin */
+    margin-right: 0.5rem; /* Right margin */
+  }
+  
